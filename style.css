@@ -1,0 +1,102 @@
+body {
+    background-color: #0A1931;
+    margin: auto;
+    padding: 0px 60px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #FFF;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+nav a {
+    color: #64CCC5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #64CCC5;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #64CCC5;
+}
+
+h2, h3 {
+    color: #176B87;
+}
+
+p, h4 {
+    color: #EEEEEE;
+}
+
+h3 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+nav li :hover {
+    color: #176B87;
+    transition: .5s;
+}
+
+#projetos ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+#projetos li{
+    padding: 0px 16px;
+    text-align: center;
+    min-width: none;
+}
+
+#projetos a {
+    text-decoration: none;
+}
+
+#projetos li :hover, .icons :hover  {
+    color:#64CCC5;
+    transition: .5s;
+}
